@@ -1,9 +1,9 @@
-class CreateLists < ActiveRecord::Migration[6.1]
+class CreateBookers < ActiveRecord::Migration[6.1]
   def change
-    create_table :lists do |t|
+    create_table :bookers do |t|
       t.string :title
       t.string :body
-
+      
       t.timestamps
     end
   end
